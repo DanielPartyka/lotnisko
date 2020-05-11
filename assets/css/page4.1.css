@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.client-data {
+  position: absolute;
+  top: 65vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  width: 50%; }
+  .client-data input {
+    margin-top: 10px;
+    padding: 10px; }
+  .client-data button {
+    margin: 10px 0 20px 0;
+    padding: 10px 10px;
+    cursor: pointer;
+    align-self: flex-end; }
+  .client-data p {
+    margin-top: 20px; }

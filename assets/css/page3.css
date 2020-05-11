@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.tickets--container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s; }
+  .tickets--container .tickets--paragraph {
+    margin-bottom: 10px; }
+  .tickets--container .tickets--list__container {
+    width: 500px;
+    height: 300px;
+    background: blue; }
+    .tickets--container .tickets--list__container .tickets--list {
+      list-style: none;
+      color: white; }
+      .tickets--container .tickets--list__container .tickets--list li {
+        padding: 10px;
+        width: 100%;
+        height: 100px;
+        border-bottom: 4px solid red;
+        display: flex;
+        align-items: center; }
+        .tickets--container .tickets--list__container .tickets--list li p {
+          align-self: flex-start; }
+        .tickets--container .tickets--list__container .tickets--list li div {
+          margin-left: 20px;
+          background: #000;
+          width: 40px;
+          height: 40px;
+          margin-top: 5px;
+          text-align: center;
+          font-size: 1.5rem;
+          padding-top: 5px;
+          cursor: pointer; }
+        .tickets--container .tickets--list__container .tickets--list li .tickets-counter {
+          margin-top: 5px;
+          width: 40px;
+          height: 40px;
+          font-size: 1.5rem;
+          text-align: center; }
+  .tickets--container .ticket--button {
+    padding: 10px 20px;
+    margin-top: 5px;
+    position: absolute;
+    right: 0; }
